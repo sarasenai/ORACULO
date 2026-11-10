@@ -1,0 +1,95 @@
+/* Configuração geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  background-color: #eee6f7;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #4b2868;
+  color: white;
+  padding: 30px 15px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #bf85ee;
+}
+
+header h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+main {
+  flex: 1;
+  background-color: #eee6f7;
+  padding: 50px 15px;
+}
+
+.campo-pergunta {
+  background-color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #3a135e;
+}
+
+.campo-pergunta label {
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: 1px solid #a78ac2;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn-enviar {
+  background-color: #7b4ba1;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background-color: #512d70;
+}
+
+#seila {
+  margin-top: 20px;
+  color: #593477;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #4b2868;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 8px;
+  font-size: 14px;
+}
